@@ -1,0 +1,191 @@
+#cls
+{
+    clear: both;
+}
+#salatryImg
+{
+    width: 100%;
+    height: 22vw;
+    background-image: url('./salatryImg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align:right;
+}
+#salatryTab
+{
+    min-height:1050px;
+    background-color: white;
+    background-image: url(/src/components/background/background.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 80%;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    padding-bottom: 30px;
+}
+.button2
+{
+    color:white;
+    background-color: #C4B976;
+    border: #C4B976;
+    border-radius: 5px;
+    padding-left:1%;
+    padding-right: 1%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: Roboto;
+    margin-right:13vw;
+    margin-top:5vh;
+    float:right;
+}
+#header
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 700;
+    font-size:5vw;
+    color: white;
+    float: right;
+    padding-right: 18vw;
+    padding-top:9vw;
+    width: 10%;
+    height: 10%;
+}
+#reserv
+{
+    text-align: right;
+    width:50vw;
+    float:right;
+    margin-top:5vh;
+}
+#placeholder
+{
+    float:left;
+    min-height: 200px;
+    min-width: 400px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.reserv_thng
+{
+    float:right;
+    margin-right:2%;
+}
+.pokoj
+{
+    margin-right: 20%;
+}
+#reserv_button
+{
+    margin-right:47%;
+    margin-bottom: 1%;
+}
+.react-calendar 
+{ 
+    width: 400px;
+    max-width: 100%;
+    background-color: #fff;
+    color: #222;
+    border-radius: 8px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125em;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 12vw;
+    font-size: 21px;
+}
+.react-calendar__navigation button 
+{
+    color: #C4B976;
+    min-width: 44px;
+    background: none;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus 
+{
+    background-color: #f8f8fa;
+}
+.react-calendar__navigation button[disabled] 
+{
+    background-color: #f0f0f0;
+}
+abbr[title] 
+{
+    text-decoration: none;
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus 
+{
+    background: #f8f8fa;
+    color: #C4B976;
+    border-radius: 6px;
+}
+.react-calendar__tile--now 
+{
+    background: #faf1b7;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #bfae43;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus 
+{
+    background: #C4B976;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #faf1b7;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus 
+{
+    background: #f8f8fa;
+}
+.react-calendar__tile--active 
+{
+    background: #faf1b7;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus 
+{
+    background: #C4B976;
+    color: white;
+}
+.react-calendar--selectRange .react-calendar__tile--hover 
+{
+    background-color: #f8f8fa;
+}
+.react-calendar__tile--range 
+{
+    background: #f8f8fa;
+    color: #C4B976;
+    border-radius: 0;
+}
+.react-calendar__tile--rangeStart 
+{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: #C4B976;
+    color: white;
+}
+.react-calendar__tile--rangeEnd 
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: #C4B976;
+    color: white;
+}
